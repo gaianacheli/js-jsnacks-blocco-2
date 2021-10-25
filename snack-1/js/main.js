@@ -23,4 +23,5 @@ for (let i = 0 ; i < biciCorsa.length; i++) {
   };
 }
 console.log(variabileAppoggio);
-document.getElementById('.risultato').innerHTML = 'la bici piu leggera è :' ${variabileAppoggio.nameBici} 'e pesa:' ${variabileAppoggio.peso}
+
+document.getElementById('risultato').innerHTML = `la bici piu leggera è : ${variabileAppoggio.nameBici} e pesa: ${variabileAppoggio.peso}`

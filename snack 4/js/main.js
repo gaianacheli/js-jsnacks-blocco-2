@@ -1,4 +1,4 @@
-
+const risultato = document.getElementById('risultato')
 const biciCorsa = [
     {
         nameBici: 'Passoni',
@@ -19,4 +19,6 @@ const biciCorsa = [
             variabileAppoggio = bici
           };
           console.log(variabileAppoggio);
+
     });
+    risultato.innerHTML = `la bici piu leggera è : ${variabileAppoggio.nameBici} e pesa: ${variabileAppoggio.peso}`
